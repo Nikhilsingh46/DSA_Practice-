@@ -1,59 +1,94 @@
 # DSA_Practice
 
-Welcome to **DSA_Practice** – a repository created for practicing and strengthening core **Data Structures and Algorithms (DSA)** using Java 💻.
+Welcome to **DSA_Practice** — a personal repository by [Nikhil Kumar](https://github.com/Nikhilsingh46) created for practicing core concepts of **Data Structures and Algorithms (DSA)** in Java.
 
-This repository contains beginner to advanced-level DSA problems and their implementations in Java. Each file is modular and well-commented to help beginners understand the logic clearly.
+This repo currently contains Java programs focusing on:
+- Conditional Statements
+- Loops (for, while, do-while)
+
+More DSA topics will be added regularly.
 
 ---
 
-## 📁 Current Files
+## 📄 Available Files
 
-### ✅ [`conditional_statement.java`](https://github.com/Nikhilsingh46/DSA_Practice-/blob/main/conditional_statement.java)
+### 🔸 [`conditional_statement.java`](https://github.com/Nikhilsingh46/DSA_Practice-/blob/main/conditional_statement.java)
 
-A basic Java program to demonstrate the use of **conditional statements** (`if`, `else`, `else if`) with real-life examples.
+A Java program demonstrating the use of conditional statements with real-world logic.
 
-### 📌 Included Functions:
-- `GreatNum(int A, int B)` – Finds the greater of two numbers.
-- `isAdult(int age)` – Checks if a person is an adult.
-- `OddorEven(int num)` – Determines whether a number is odd or even.
-- `TotalTax(int income)` – Calculates tax based on income slabs:
-  - `< 5,00,000`: No Tax  
-  - `5,00,000 to <10,00,000`: 20% Tax  
-  - `>=10,00,000`: 30% Tax
-- `largFthree(int a, int b, int c)` – Returns the largest of three numbers.
+#### ✅ Functions:
+- `GreatNum(int A, int B)` – Returns the greater of two numbers
+- `isAdult(int age)` – Checks if the person is 18 or older
+- `OddorEven(int num)` – Determines if a number is odd or even
+- `TotalTax(int income)` – Calculates tax based on Indian income slabs
+- `largFthree(int a, int b, int c)` – Finds the greatest of three numbers
+
+---
+
+### 🔸 `loops_basic.java` *(New)*
+
+This Java file includes **basic loop-based problems** to improve logical thinking and flow control using:
+- `for` loops
+- `while` loops
+- `do-while` loops
+
+#### ✅ Examples included:
+- Print numbers from 1 to N
+- Print sum of first N natural numbers
+- Factorial of a number
+- Multiplication table
+- Reverse digits of a number
+- Check if number is palindrome
+- Count digits in a number
+- Print even numbers in a range
+- Print odd numbers in a range
+- Print all divisors of a number
+
+> Advanced and intermediate loop patterns will be added soon!
 
 ---
 
 ## 🧪 How to Run
 
-> Prerequisite: Java must be installed.
-
-1. Clone this repository:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/Nikhilsingh46/DSA_Practice-.git
    cd DSA_Practice-
-Compile and run:
+Compile any Java file:
+javac filename.java
+Run the program:
 
-javac conditional_statement.java
-java conditional_statement
-Provide inputs as requested in the terminal (e.g., numbers, age, income).
-
-🔍 Upcoming Updates
-This repo will grow with:
-
-Array & String questions
-Sorting & Searching algorithms
+java filename
+📌 Upcoming Additions
+Arrays & Strings
+Pattern Printing
+Sorting & Searching
 Recursion & Backtracking
-LinkedLists, Trees, Graphs, and more!
-Time & Space complexity analysis
-
-Stay tuned!
-
-🛠 Tech Stack
-Language: Java
-Editor: VS Code / IntelliJ / Eclipse
-Platform: Local machine / GitHub
+Stack, Queue, LinkedList, Trees
+Time & Space Complexity
+Stay tuned for more topics!
 
 🙋‍♂️ Author
 Nikhil Kumar
 📍 India
+
+⭐ Support
+If you find this repository helpful:
+
+Star ⭐ the repo
+Share with fellow learners
+Raise issues or suggestions for improvements
+Let’s grow together in the journey of mastering DSA!
+
+
+---
+
+### ✅ What to Do Next
+- Save this updated content in your `README.md`
+- Commit the change with a message like:
+git add README.md
+git commit -m "Updated README to include loops topic"
+git push
+
+
+Let me know once you add array files or pattern questions — I’ll update the README again!
