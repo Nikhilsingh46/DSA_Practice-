@@ -25,7 +25,7 @@ A Java program demonstrating the use of conditional statements with real-world l
 
 ---
 
-### 🔸 `loops_basic.java` *(New)*
+### 🔸 `PLQ.java` *(New)*
 
 This Java file includes **basic loop-based problems** to improve logical thinking and flow control using:
 - `for` loops
