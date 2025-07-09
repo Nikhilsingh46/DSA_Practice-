@@ -80,15 +80,3 @@ Share with fellow learners
 Raise issues or suggestions for improvements
 Let’s grow together in the journey of mastering DSA!
 
-
----
-
-### ✅ What to Do Next
-- Save this updated content in your `README.md`
-- Commit the change with a message like:
-git add README.md
-git commit -m "Updated README to include loops topic"
-git push
-
-
-Let me know once you add array files or pattern questions — I’ll update the README again!
