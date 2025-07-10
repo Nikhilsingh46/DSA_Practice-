@@ -1,12 +1,13 @@
-# DSA_Practice
+# DSA_Practice 🚀
 
-Welcome to **DSA_Practice** — a personal repository by [Nikhil Kumar](https://github.com/Nikhilsingh46) created for practicing core concepts of **Data Structures and Algorithms (DSA)** in Java.
+Welcome to **DSA_Practice** — a personal repository by [Nikhil Kumar](https://github.com/Nikhilsingh46) for practicing and mastering **Data Structures and Algorithms (DSA)** in Java.
 
-This repo currently contains Java programs focusing on:
-- Conditional Statements
-- Loops (for, while, do-while)
+This repository currently includes:
+- ✅ Conditional Statements
+- 🔁 Loops
+- 🔷 Pattern Printing
 
-More DSA topics will be added regularly.
+More DSA topics will be added soon!
 
 ---
 
@@ -14,37 +15,34 @@ More DSA topics will be added regularly.
 
 ### 🔸 [`conditional_statement.java`](https://github.com/Nikhilsingh46/DSA_Practice-/blob/main/conditional_statement.java)
 
-A Java program demonstrating the use of conditional statements with real-world logic.
+This file covers Java conditional logic with real-world examples.
 
 #### ✅ Functions:
-- `GreatNum(int A, int B)` – Returns the greater of two numbers
-- `isAdult(int age)` – Checks if the person is 18 or older
-- `OddorEven(int num)` – Determines if a number is odd or even
-- `TotalTax(int income)` – Calculates tax based on Indian income slabs
+- `GreatNum(int A, int B)` – Returns the greater number
+- `isAdult(int age)` – Checks adulthood (age ≥ 18)
+- `OddorEven(int num)` – Identifies if a number is odd or even
+- `TotalTax(int income)` – Computes tax based on income slabs
 - `largFthree(int a, int b, int c)` – Finds the greatest of three numbers
 
----
+### 🔸 [`PatternPrinting.java`](https://github.com/Nikhilsingh46/DSA_Practice-/blob/main/PatternPrinting.java)
 
-### 🔸 `PLQ.java` *(New)*
+This file contains a rich set of **pattern printing** problems using nested loops.
 
-This Java file includes **basic loop-based problems** to improve logical thinking and flow control using:
-- `for` loops
-- `while` loops
-- `do-while` loops
+#### ✨ Included Patterns:
+- 🔹 Right-angled triangle of stars
+- 🔹 Inverted triangle of stars
+- 🔹 Half pyramid with numbers
+- 🔹 Hollow rectangle
+- 🔹 Half-inverted triangle (right-aligned)
+- 🔹 Inverted number triangle
+- 🔹 Floyd's triangle
+- 🔹 0-1 triangle
+- 🔹 Butterfly pattern
+- 🔹 Solid rhombus
+- 🔹 Hollow rhombus
+- 🔹 Diamond pattern
 
-#### ✅ Examples included:
-- Print numbers from 1 to N
-- Print sum of first N natural numbers
-- Factorial of a number
-- Multiplication table
-- Reverse digits of a number
-- Check if number is palindrome
-- Count digits in a number
-- Print even numbers in a range
-- Print odd numbers in a range
-- Print all divisors of a number
-
-> Advanced and intermediate loop patterns will be added soon!
+📌 All methods are modular. You can uncomment any function call from `main()` to test it by entering `n`.
 
 ---
 
@@ -55,18 +53,23 @@ This Java file includes **basic loop-based problems** to improve logical thinkin
    git clone https://github.com/Nikhilsingh46/DSA_Practice-.git
    cd DSA_Practice-
 Compile any Java file:
-javac filename.java
-Run the program:
+javac PatternPrinting.java
 
-java filename
-📌 Upcoming Additions
+Run the program:
+java PatternPrinting
+
+Example Input:
+5
+
+Uncomment the desired pattern function inside the main() method to test it.
+
+📌 Upcoming Topics
 Arrays & Strings
-Pattern Printing
-Sorting & Searching
+Sorting Algorithms
 Recursion & Backtracking
-Stack, Queue, LinkedList, Trees
+LinkedList, Stack, Queue
+Trees & Graphs
 Time & Space Complexity
-Stay tuned for more topics!
 
 🙋‍♂️ Author
 Nikhil Kumar
@@ -74,9 +77,7 @@ Nikhil Kumar
 
 ⭐ Support
 If you find this repository helpful:
-
-Star ⭐ the repo
-Share with fellow learners
-Raise issues or suggestions for improvements
+🌟 Star the repo
+🧑‍💻 Share with others learning DSA
+💬 Raise issues or suggest improvements
 Let’s grow together in the journey of mastering DSA!
-
